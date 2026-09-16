@@ -28,8 +28,7 @@ int main () {
             if(valorCor1 > 255) {
                 valorCor1 = 0;
                 valorCor2 = 255;
-            }
-            std::cout << "Vezes de cor alteradas: " << SDL_GetTicks() / 1000 << std::endl;
+            } std::cout << "Vezes de cor alteradas: " << SDL_GetTicks() / 1000 << std::endl;
         }
 
         SDL_SetRenderDrawColor(renderer, valorCor1, valorCor2, 0, 0);
